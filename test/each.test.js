@@ -7,6 +7,7 @@ describe('each()', () => {
     _.each(arr, function(element, index, array) {
       expect(element).toEqual(array[index]);
       count += 1;
+      expect(arr).toEqual(array);
     });
     expect(count).toBe(3);
   });
@@ -22,6 +23,7 @@ describe('each()', () => {
     _.each(arrayLikeObj, function(element, index, iteratedArrayLikeObj) {
       expect(element).toEqual(iteratedArrayLikeObj[index]);
       count += 1;
+      expect(arrayLikeObj).toEqual(iteratedArrayLikeObj);
     });
     expect(count).toBe(3);
   });
@@ -36,6 +38,7 @@ describe('each()', () => {
     _.each(obj, function(value, key, iteratedObj) {
       expect(value).toEqual(iteratedObj[key]);
       count += 1;
+      expect(obj).toEqual(iteratedObj);
     });
     expect(count).toBe(3);
   });
