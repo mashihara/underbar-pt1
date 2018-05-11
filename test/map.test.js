@@ -6,4 +6,10 @@ describe('map()', () => {
     const mappedArr = _.map(arr, (el) => el * el);
     expect(mappedArr).toEqual([1, 4, 9, 16, 25]);
   });
+
+  it('object type', () => {
+    const obj = {name:'mashihara',age:32};
+    const mappedArr = _.map(obj, (value,key) => `${key}:${value}`);
+    expect(mappedArr).toEqual(['name:mashihara','age:32']);
+  });
 });
