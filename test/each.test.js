@@ -42,5 +42,14 @@ describe('each()', () => {
     });
     expect(count).toBe(3);
   });
+  it('check scalar', () => {
+    const scalar = 10;
+    let count = 0;
+    console.log("foo")
+    _.each(scalar, function(value, key, iteratedObj) {
+      count++;
+    });
+    expect(count).toBe(0);
+  });
 });
 
