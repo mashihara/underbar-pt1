@@ -2,7 +2,7 @@
 
 - [×] every.test.js
 - [ ] contains.test.js
-- [×] filter.test.js
+- [ ] filter.test.js
 - [ ] indexOf.test.js
 - [×] map.test.js
 - [ ] pluck.test.js
@@ -11,6 +11,6 @@
 - [ ] some.test.js
 - [ ] uniq.test.js
 - [×] last.test.js
-- [ ] first.test.js
+- [×] first.test.js
 - [×] isArrayLike.test.js
 - [×] each.test.js
