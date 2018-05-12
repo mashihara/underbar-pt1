@@ -1,7 +1,7 @@
 ## check complete test
 
 - [×] every.test.js
-- [ ] contains.test.js
+- [×] contains.test.js
 - [ ] filter.test.js
 - [ ] indexOf.test.js
 - [×] map.test.js

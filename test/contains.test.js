@@ -30,5 +30,15 @@ describe('contains()', () => {
     };
     expect(_.contains(ponies, 'Applejack')).toBe(false);
   });
+  it('returns false if the target value is not among the values but contains words of an object', () => {
+    const ponies = {
+      'pony1': 'Fluttershy',
+      'pony2': 'Pinkie Pie',
+      'pony3': 'Rainbow Dash',
+      'pony4': 'Rarity'
+    };
+    expect(_.contains(ponies, 'Rarity Test')).toBe(false);
+  });
+
 
 });
