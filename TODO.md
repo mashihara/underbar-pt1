@@ -7,7 +7,7 @@
 - [×] map.test.js
 - [×] pluck.test.js
 - [×] reduce.test.js
-- [ ] reject.test.js
+- [×] reject.test.js
 - [ ] some.test.js
 - [ ] uniq.test.js
 - [×] last.test.js
