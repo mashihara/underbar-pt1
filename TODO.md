@@ -2,7 +2,7 @@
 
 - [×] every.test.js
 - [×] contains.test.js
-- [ ] filter.test.js
+- [×] filter.test.js
 - [ ] indexOf.test.js
 - [×] map.test.js
 - [ ] pluck.test.js
