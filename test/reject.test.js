@@ -18,4 +18,32 @@ describe('reject()', () => {
     const orderItems = _.reject(order, (value) => value === null);
     expect(orderItems).toEqual(['burger', 'ketchup', 'cookie']);
   });
+
+  it('always true', () => {
+    const order = {
+      entree: 'burger',
+      side: null,
+      condiment: 'ketchup',
+      drink: null,
+      dessert: 'cookie'
+    };
+
+    const orderItems = _.reject(order, (value) => true);
+    expect(orderItems).toEqual([]);
+  });
+
+  it('always false', () => {
+    const order = {
+      entree: 'burger',
+      side: null,
+      condiment: 'ketchup',
+      drink: null,
+      dessert: 'cookie'
+    };
+
+    const orderItems = _.reject(order, (value) => false);
+    expect(orderItems).toEqual(['burger', null, 'ketchup', null, 'cookie']);
+  });
+
+  
 });
