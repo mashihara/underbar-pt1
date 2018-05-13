@@ -5,7 +5,7 @@
 - [×] filter.test.js
 - [×] indexOf.test.js
 - [×] map.test.js
-- [ ] pluck.test.js
+- [×] pluck.test.js
 - [×] reduce.test.js
 - [ ] reject.test.js
 - [ ] some.test.js
