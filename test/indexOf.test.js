@@ -21,9 +21,9 @@ describe('indexOf()', () => {
     expect(_.indexOf(arr, 'bar')).toBe(1);
   });
 
-  it('starts searching at the given offset', () => {
-    const arr = ['foo', 'bar', 'baz', 'bar', 'bar'];
-    expect(_.indexOf(arr, 'bar', 2)).toBe(3);
+  it('array has one element', () => {
+    const arr = ['foo'];
+    expect(_.indexOf(arr, 'foo')).toBe(0);
   });
 
 });
