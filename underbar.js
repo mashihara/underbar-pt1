@@ -117,10 +117,13 @@ const reject = function(obj, callback) {
 const uniq = function(obj) {
   const foundItems = {};
   return filter(obj, item => {
+    console.log('item:',item);
     if (item in foundItems) {
       return false;
     }
+    
     foundItems[item] = true;
+    console.log('foundItems:',foundItems);
     return true;
   });
 };

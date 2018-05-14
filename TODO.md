@@ -9,7 +9,7 @@
 - [×] reduce.test.js
 - [×] reject.test.js
 - [×] some.test.js
-- [ ] uniq.test.js
+- [×] uniq.test.js
 - [×] last.test.js
 - [×] first.test.js
 - [×] isArrayLike.test.js
